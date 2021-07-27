@@ -1,0 +1,40 @@
+
+html {
+    background-color: gray;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+.img-conteiner {
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.field {
+    height: 75%;
+    width: 75%;
+}
+
+.button {
+    margin-bottom: 5%;
+}
+
+.conteiner-table {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

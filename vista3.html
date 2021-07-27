@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bulma.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card row-custom">
+        <div class="card-content">
+            <div class="content" style="height: 150px;">
+                <div class="columns">
+                    <div class="column">
+                        <button class="button is-primary" style="width: 100% !important; "
+                            onclick="addData(); ">Agregar</button>
+
+                        <button class="button is-primary" style="width: 100% !important; "
+                            onclick="selectData(); ">Ver datos</button>
+
+                    </div> 
+                    <div class="column">
+                        <input id="nombre" class="input-custom input is-primary" type="text" placeholder="nombre">
+                        <br>
+                        <br>
+                        <input id="ap_pat" class="input-custom input is-primary" type="text" placeholder="ap_pat">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="column">
+                        <input id="ap_mat" class="input-custom input is-primary" type="text" placeholder="ap_mat">
+                        <br>
+                        <br>
+                        <input id="edad" class="input-custom input is-primary" type="number" placeholder="edad">
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="conteiner-table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th title="nombre">nombre</th>
+                                <th title="ap_pat">ap_pat</th>
+                                <th title="ap_mat">ap_mat</th>
+                                <th title="edad">edad</th>
+                            </tr>
+                        </thead> 
+                        <tbody id="tabla">
+                           
+                        </tbody>
+    
+                    </table>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="./main.js"></script>
+    </footer>
+</body>
+
+</html>
